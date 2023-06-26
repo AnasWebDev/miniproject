@@ -1,0 +1,177 @@
+/* 
+fonts:-
+
+font-family: 'Belanosima', sans-serif;
+font-family: 'BioRhyme', serif;
+font-family: 'Kalam', cursive;
+font-family: 'Martian Mono', monospace;
+font-family: 'Sriracha', cursive;
+
+*/
+
+/* Global properties */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 1vh 15%;
+}
+
+h2,
+h3 {
+  color: black;
+}
+
+h3 {
+  font-family: "BioRhyme", serif;
+}
+p {
+  color: rgb(119, 128, 0);
+}
+
+/* Header Start Here */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logHe {
+  display: flex;
+  margin: 1%;
+}
+
+.logHe img {
+  height: 12vh;
+  width: 5.5vw;
+}
+
+.nav-text {
+  margin-left: 10px;
+}
+.nav-text p {
+  padding: 0;
+  font-size: larger;
+  text-align: center;
+}
+
+.iconList {
+  display: flex;
+}
+
+.iconList li {
+  flex-grow: 1;
+}
+
+.nav-text h2 {
+  font-family: "Martian Mono", monospace;
+  font-size: x-large;
+}
+/* Header End Here */
+
+hr {
+  height: 7px;
+  background-image: url("/img/hr-img1.png");
+}
+
+/* Main Section Start Here */
+/* Main Header */
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.pizza {
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+  flex-wrap: nowrap;
+  row-gap: 1.5em;
+  width: 80%;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.print_img {
+  width: 40px;
+}
+
+ul li {
+  display: inline;
+  list-style: none;
+}
+/* Main Section End Here */
+
+/* Recipe Section Start Here */
+.list_section {
+  font-family: "Kalam", cursive;
+  font-size: large;
+  font-weight: 600;
+  display: flex;
+  background-image: url("/img/list-bg.png");
+  justify-content: space-evenly;
+  padding: 15px 0px;
+  height: fit-content;
+}
+
+.list_section input {
+  margin-bottom: 10px;
+}
+/* Recipe Section Start Here */
+
+/* Footer Start Here */
+.about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 3%;
+}
+
+.about img {
+  padding: 15px;
+}
+
+.footer_right p {
+  color: black;
+  font-family: "Sriracha", cursive;
+  font-weight: 400;
+}
+.footer_right h3 {
+  color: black;
+  /* font-family: 'Sriracha', cursive; */
+  font-family: "Belanosima", sans-serif;
+}
+.footer_right {
+  flex: 0 1 40%;
+}
+button {
+  padding: 5px 10px;
+  font-size: 24px;
+  color: white;
+  background-color: red;
+}
+
+.footer_article {
+  text-align: center;
+}
+
+.footer_article_img {
+  padding: 25px;
+}
+
+.footer_article_par {
+  margin-bottom: 5vh;
+}
+.footer_article_par p {
+  padding: 15px;
+  color: black;
+}
+/* Footer End Here */
