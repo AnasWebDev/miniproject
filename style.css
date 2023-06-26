@@ -74,7 +74,7 @@ header {
 
 hr {
   height: 7px;
-  background-image: url("/img/hr-img1.png");
+  background-image: url("img/hr-img1.png");
 }
 
 /* Main Section Start Here */
@@ -116,7 +116,7 @@ ul li {
   font-size: large;
   font-weight: 600;
   display: flex;
-  background-image: url("/img/list-bg.png");
+  background-image: url("img/list-bg.png");
   justify-content: space-evenly;
   padding: 15px 0px;
   height: fit-content;
